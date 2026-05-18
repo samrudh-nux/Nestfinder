@@ -20,7 +20,7 @@ https://ai.studio/apps/9b950ff4-0458-46a1-aee3-c9fc1e5236ac
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Try_NestFinder-brightgreen?style=for-the-badge)](https://aistudio.google.com/apps/9b950ff4-0458-46a1-aee3-c9fc1e5236ac)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Try_NestFinder-brightgreen?style=for-the-badge)](https://ai.studio/apps/9b950ff4-0458-46a1-aee3-c9fc1e5236ac?fullscreenApplet=true)
 [![GitHub](https://img.shields.io/badge/📁_GitHub-samrudh--nux/Nestfinder-black?style=for-the-badge)](https://github.com/samrudh-nux/Nestfinder)
 [![Hackathon](https://img.shields.io/badge/DevFusion_2.0-gold?style=for-the-badge)](https://devfusion.iitb.ac.in)
 
