@@ -140,7 +140,7 @@ Then open your browser at `http://localhost:8080`
 
 Just visit the hosted version directly — no setup required:
 
-👉 **[https://ai.studio/apps/9b950ff4-0458-46a1-aee3-c9fc1e5236ac)**
+👉 **[https://ai.studio/apps/9b950ff4-0458-46a1-aee3-c9fc1e5236ac?fullscreenApplet=true)**
 
 ---
 
@@ -264,7 +264,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <br/>
 
-[![Try Live](https:https://ai.studio/apps/9b950ff4-0458-46a1-aee3-c9fc1e5236ac)
+[![Try Live](https://ai.studio/apps/9b950ff4-0458-46a1-aee3-c9fc1e5236ac?fullscreenApplet=true)
 
 <br/>
 
