@@ -1,0 +1,130 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  password      String?
+  name          String
+  phone         String?
+  role          String    @default("BUYER") // BUYER, OWNER, AGENT, ADMIN
+  avatar        String?
+  preferences   String?   // JSON stringified onboarding quiz answers
+  createdAt     DateTime  @default(now())
+  listings      Listing[]
+  favourites    Favourite[]
+  reviews       Review[]
+  messages      Message[]
+  visits        SiteVisit[]
+  payments      Payment[]
+}
+
+model Listing {
+  id            String    @id @default(cuid())
+  title         String
+  description   String
+  type          String    // RENT | BUY
+  category      String    // FLAT | HOUSE | PG | HOSTEL | COMMERCIAL | PLOT
+  price         Int
+  deposit       Int?
+  bhk           Int?
+  area          Float?
+  city          String
+  locality      String
+  address       String
+  lat           Float
+  lng           Float
+  furnishing    String    // UNFURNISHED | SEMI | FULLY
+  amenities     String?   // JSON stringified array
+  photos        String?   // JSON stringified array
+  videoUrl      String?
+  virtualTourUrl String?
+  floorPlanUrl  String?
+  isVerified    Boolean   @default(false)
+  isAvailable   Boolean   @default(true)
+  status        String    @default("ACTIVE")
+  nestScore     Int?
+  priceInsight  String?
+  ownerId       String
+  owner         User      @relation(fields: [ownerId], references: [id])
+  visits        SiteVisit[]
+  reviews       Review[]
+  favourites    Favourite[]
+  messages      Message[]
+  payments      Payment[]
+  createdAt     DateTime  @default(now())
+}
+
+model SiteVisit {
+  id          String   @id @default(cuid())
+  date        DateTime
+  timeSlot    String
+  message     String?
+  status      String   @default("PENDING") // PENDING, ACCEPTED, DECLINED
+  listingId   String
+  listing     Listing  @relation(fields: [listingId], references: [id])
+  visitorId   String
+  visitor     User     @relation(fields: [visitorId], references: [id])
+  createdAt   DateTime @default(now())
+}
+
+model Payment {
+  id            String   @id @default(cuid())
+  amount        Int
+  currency      String   @default("INR")
+  razorpayId    String?
+  status        String   @default("PENDING")
+  listingId     String
+  listing       Listing  @relation(fields: [listingId], references: [id])
+  payerId       String
+  payer         User     @relation(fields: [payerId], references: [id])
+  createdAt     DateTime @default(now())
+}
+
+model Favourite {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  listingId String
+  listing   Listing  @relation(fields: [listingId], references: [id])
+  createdAt DateTime @default(now())
+  @@unique([userId, listingId])
+}
+
+model Message {
+  id        String   @id @default(cuid())
+  content   String
+  senderId  String
+  sender    User     @relation(fields: [senderId], references: [id])
+  listingId String
+  listing   Listing  @relation(fields: [listingId], references: [id])
+  createdAt DateTime @default(now())
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  rating    Int
+  comment   String
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  listingId String
+  listing   Listing  @relation(fields: [listingId], references: [id])
+  createdAt DateTime @default(now())
+}
+
+model AIChatFeedback {
+  id        String   @id @default(cuid())
+  userId    String?
+  listingId String?
+  query     String
+  response  String
+  rating    Int      // 1 for helpful, -1 for not helpful
+  feedback  String?
+  createdAt DateTime @default(now())
+}

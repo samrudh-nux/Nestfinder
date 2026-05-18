@@ -1,0 +1,8 @@
+{
+  "name": "NestFinder",
+  "description": "AI-powered real estate discovery platform with smart matching, automated descriptions, and local insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

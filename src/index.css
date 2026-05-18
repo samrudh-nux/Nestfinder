@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Plus Jakarta Sans", "Playfair Display", serif;
+  
+  --color-terra-bg: #fcfaf7;
+  --color-terra-sidebar: #f5f2ed;
+  --color-terra-green: #5a6e5a;
+  --color-terra-green-light: #d9e2d5;
+  --color-terra-text: #3d3d3d;
+  --color-terra-text-muted: #a19b94;
+  --color-terra-border: #ece7e1;
+  --color-terra-card-border: #f0ede9;
+}
+
+@layer base {
+  body {
+    @apply antialiased text-terra-text bg-terra-bg font-sans;
+  }
+  
+  h1, h2, h3, h4, .font-serif {
+    @apply font-serif tracking-tight;
+  }
+}
+
+.gm-style-iw-c {
+  @apply !rounded-[32px] !p-0 !bg-white !shadow-2xl overflow-hidden;
+}
+
+.gm-style-iw-d {
+  @apply !overflow-hidden !max-h-full;
+}
+
+.gm-ui-hover-effect {
+  @apply !top-2 !right-2 !bg-white/80 !backdrop-blur-md !rounded-full !shadow-lg;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-terra-sidebar;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-terra-border rounded-full hover:bg-terra-text-muted transition-colors;
+}
+
+.glass-card {
+  @apply bg-white/40 backdrop-blur-md border border-white/20;
+}
