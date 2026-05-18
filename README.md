@@ -1,4 +1,3 @@
-https://ai.studio/apps/9b950ff4-0458-46a1-aee3-c9fc1e5236ac
 <div align="center">
 
 <img src="https://img.shields.io/badge/🏆_DevFusion-Hackathon_2.0-gold?style=for-the-badge&labelColor=1a1a2e&color=f5a623" />
