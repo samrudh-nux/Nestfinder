@@ -217,13 +217,11 @@ User Input (Natural Language)
 
 ---
 
-## 👨‍💻 Team
+## 👨‍💻
 
 | Name | Role | GitHub |
 |---|---|---|
 | **Samrudh** | AI/ML + Full Stack | [@samrudh-nux](https://github.com/samrudh-nux) |
-| *(Add teammate)* | *(Role)* | *(@handle)* |
-| *(Add teammate)* | *(Role)* | *(@handle)* |
 
 ---
 
@@ -257,10 +255,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 
 <div align="center">
-
-**Built with ❤️ at IIT Bombay in 24 hours**
-
-*DevFusion: The Developers Hackathon 2.0*
 
 <br/>
 
