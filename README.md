@@ -19,7 +19,7 @@
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Try_NestFinder-brightgreen?style=for-the-badge)](https://ai.studio/apps/9b950ff4-0458-46a1-aee3-c9fc1e5236ac?fullscreenApplet=true)
+[![Live Demo](https://img.shields.io/badge/_Live_Demo-Try_NestFinder-brightgreen?style=for-the-badge)](https://ai.studio/apps/9b950ff4-0458-46a1-aee3-c9fc1e5236ac?fullscreenApplet=true)
 [![GitHub](https://img.shields.io/badge/📁_GitHub-samrudh--nux/Nestfinder-black?style=for-the-badge)](https://github.com/samrudh-nux/Nestfinder)
 [![Hackathon](https://img.shields.io/badge/DevFusion_2.0-gold?style=for-the-badge)](https://devfusion.iitb.ac.in)
 
@@ -34,21 +34,21 @@
 
 ---
 
-## 🔥 The Problem
+##  The Problem
 
 Finding a home is one of the most stressful, time-consuming, and emotionally draining experiences a person can go through.
 
 Current real estate platforms bombard you with:
-- ❌ Endless dropdowns and filter menus
-- ❌ Irrelevant listings that don't match your real needs
-- ❌ Zero understanding of *context* ("I need a quiet neighborhood near good schools")
-- ❌ No intelligent follow-up — just static search results
+-  Endless dropdowns and filter menus
+-  Irrelevant listings that don't match your real needs
+- Zero understanding of *context* ("I need a quiet neighborhood near good schools")
+-  No intelligent follow-up — just static search results
 
 **People don't think in filters. They think in stories.**
 
 ---
 
-## 💡 Our Solution — NestFinder
+## Our Solution — NestFinder
 
 **NestFinder** is a Gemini-powered conversational AI assistant that lets you describe your ideal home in plain, natural language and surfaces the most relevant listings intelligently.
 
@@ -62,22 +62,22 @@ NestFinder **understands context**, **asks follow-up questions**, and **narrows 
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 🗣️ **Conversational Search** | Natural language input — describe your home like you'd tell a friend |
-| 🧠 **Gemini AI Core** | Powered by Google's Gemini model for deep language understanding |
-| 🔁 **Multi-turn Dialogue** | Remembers context across messages — no repeating yourself |
-| 📍 **Location Intelligence** | Understands landmarks, city zones, and proximity requirements |
-| 💰 **Budget Awareness** | Parses price ranges, rent vs buy, and negotiation hints |
-| 🐾 **Preference Parsing** | Pet-friendly, furnished, parking, floor preferences — all understood |
-| ⚡ **Instant Results** | Real-time streaming responses powered by Google AI Studio |
-| 📱 **Responsive UI** | Works beautifully across desktop and mobile |
+|  **Conversational Search** | Natural language input — describe your home like you'd tell a friend |
+| **Gemini AI Core** | Powered by Google's Gemini model for deep language understanding |
+|  **Multi-turn Dialogue** | Remembers context across messages — no repeating yourself |
+| **Location Intelligence** | Understands landmarks, city zones, and proximity requirements |
+|  **Budget Awareness** | Parses price ranges, rent vs buy, and negotiation hints |
+|  **Preference Parsing** | Pet-friendly, furnished, parking, floor preferences — all understood |
+|  **Instant Results** | Real-time streaming responses powered by Google AI Studio |
+|  **Responsive UI** | Works beautifully across desktop and mobile |
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -94,7 +94,7 @@ NestFinder **understands context**, **asks follow-up questions**, and **narrows 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -136,13 +136,7 @@ python app.py
 
 Then open your browser at `http://localhost:8080`
 
-### 🌐 Or Use the Live Demo
 
-Just visit the hosted version directly — no setup required:
-
-👉 **[https://ai.studio/apps/9b950ff4-0458-46a1-aee3-c9fc1e5236ac?fullscreenApplet=true)**
-
----
 
 ## 🧠 How It Works
 
@@ -186,15 +180,15 @@ User Input (Natural Language)
 
 ---
 
-## 🎯 Hackathon Journey
+## Hackathon Journey
 
 | Stage | Details |
 |---|---|
 |  **Event** | DevFusion: The Developers Hackathon 2.0 |
-| ⏱️ **Duration** | 24 Hours |
-| 💡 **Idea to Demo** | Conceived, built, and deployed in one night |
-| 🎯 **Problem Domain** | AI / Real Estate / Conversational Interfaces |
-| 🧰 **Core Tech** | Google Gemini API + AI Studio |
+|  **Duration** | 3 Hours |
+| **Idea to Demo** | Conceived, built, and deployed in one night |
+|  **Problem Domain** | AI / Real Estate / Conversational Interfaces |
+| **Core Tech** | Google Gemini API + AI Studio |
 
 ### What We Learned
 
@@ -205,15 +199,15 @@ User Input (Natural Language)
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
-- [ ] 🔌 Integrate live listing APIs (MagicBricks, 99acres, Housing.com)
-- [ ] 🗺️ Interactive map view with neighborhood overlays
-- [ ] 📊 Price trend analysis powered by Gemini
-- [ ] 🔔 Smart alerts — notify when a matching listing appears
-- [ ] 🤝 Agent connect — schedule visits directly from the chat
-- [ ] 🌐 Multilingual support (Hindi, Tamil, Telugu, Kannada, Marathi)
-- [ ] 📱 Native mobile app (Android + iOS)
+- [ ]  Integrate live listing APIs (MagicBricks, 99acres, Housing.com)
+- [ ]  Interactive map view with neighborhood overlays
+- [ ]  Price trend analysis powered by Gemini
+- [ ]  Smart alerts — notify when a matching listing appears
+- [ ]  Agent connect — schedule visits directly from the chat
+- [ ]  Multilingual support (Hindi, Tamil, Telugu, Kannada, Marathi)
+- [ ]  Native mobile app (Android + iOS)
 
 ---
 
@@ -221,11 +215,11 @@ User Input (Natural Language)
 
 | Name | Role | GitHub |
 |---|---|---|
-| **Samrudh** | AI/ML + Full Stack | [@samrudh-nux](https://github.com/samrudh-nux) |
+| **Samrudh** [@samrudh-nux](https://github.com/samrudh-nux) |
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -255,13 +249,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 
 <div align="center">
-
-<br/>
-
-[![Try Live](https://ai.studio/apps/9b950ff4-0458-46a1-aee3-c9fc1e5236ac?fullscreenApplet=true)
-
-<br/>
-
-*If you like this project, please ⭐ star the repo — it helps more than you know!*
 
 </div>
